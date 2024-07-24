@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 90px;
+}
+img {
+    width: 250px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+/* -- Contatti --*/
+.contatti {
+    width: 20%;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+#lista-contatti {
+    border-bottom: none;
+}
+#cont1 {
+    position: relative;
+    right: 80px;
+}
+#cont2 {
+    position: relative;
+    bottom: 55px;
+    right: 10px;
+}
+
+/* -- Formazione --*/
+.formazione {
+    text-align: center;
+    margin-top: -250px;
+    margin-left: 100px;
+}
+hr {
+    width: 50%;
+    margin-left: 355px;
+    margin-bottom: 80px;
+}
+h2 {
+    font-size: 50px;
+}
+.laurea {
+    margin-bottom: 60px;
+}
+
+/* -- Lavoro --*/
+
+.lavoro {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 100px;
+}
+.elenco {
+    margin: 3rem;
+}
+ul {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+}
+li {
+    margin: 1rem;
+    list-style: none;
+}
+
+/* -- Interessi --*/
+.interessi  {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 100px;
+}
+.int {
+    list-style: inside;
+    text-align: start;
+    margin-left: 300px;
+}
